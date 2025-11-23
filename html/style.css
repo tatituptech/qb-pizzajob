@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hidden { display: none; }
+#app {
+  position: fixed;
+  inset: 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: rgba(0,0,0,0.6);
+  z-index: 9999;
+}
+.modal {
+  background: #1f2937;
+  color: #fff;
+  width: 600px;
+  max-width: 95%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+.modal-header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 12px 16px;
+  background: #111827;
+}
+.modal-body {
+  padding: 12px 16px;
+  max-height: 60vh;
+  overflow: auto;
+}
+.modal-actions {
+  padding: 12px 16px;
+  display:flex;
+  justify-content:flex-end;
+  gap:8px;
+}
+.btn {
+  background:#2563eb;
+  color:#fff;
+  border:none;
+  padding:8px 12px;
+  border-radius:4px;
+  cursor:pointer;
+}
+pre { white-space:pre-wrap; word-wrap:break-word; }
